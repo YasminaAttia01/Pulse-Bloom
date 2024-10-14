@@ -20,13 +20,13 @@ const Register = async ({ params: { userId } }: SearchParamProps) => {
                         className="b-12 h10 w-fit"
                     />
                     <RegisterForm user={user} />
-                    
-                        <p className="justify-items-end text-dark-600 xl:text-left">
-                            © 2024 PluseBloom
-                        </p>
-                    
 
-                  
+                    <p className="copyright py-12">
+                        © 2024 PluseBloom
+                    </p>
+
+
+
 
                 </div>
             </section>
