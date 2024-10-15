@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "baseUrl": ".", // Définit le répertoire racine du projet pour les chemins non relatifs
     "types": [
       "@types/node",
       "@types/react",
@@ -31,6 +32,12 @@
     "paths": {
       "@/*": [
         "./*"
+      ], // Les chemins sont relatifs au `baseUrl`
+      "@/lib/*": [
+        "lib/*"
+      ],
+      "@/components/*": [
+        "components/*"
       ]
     }
   },
