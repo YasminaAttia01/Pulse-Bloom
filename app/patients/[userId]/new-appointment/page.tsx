@@ -26,7 +26,7 @@ const Appointment = async ({ params: { userId } }: SearchParamProps) => {
                         type="create"
                     />
 
-                    <p className="copyright mt-10 py-12">© 2024 PulseBloom</p>
+                    <p className="copyright mt-10 py-12">© 2025 PulseBloom desktop version</p>
                 </div>
             </section>
 
